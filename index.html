@@ -1,0 +1,1335 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="https://gauchazh.clicrbs.com.br/static/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://gauchazh.clicrbs.com.br/static/icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://gauchazh.clicrbs.com.br/static/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://gauchazh.clicrbs.com.br/static/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://gauchazh.clicrbs.com.br/static/icons/favicon-128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="https://gauchazh.clicrbs.com.br/static/icons/favicon-196x196.png" sizes="196x196" />
+    <meta name="referrer" content="origin" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="preconnect" href="//www.rbsdirect.com.br" />
+    <link rel="preconnect" href="//nossa-loader.clicrbs.com.br" />
+    <link rel="preconnect" href="//ad.clicrbs.com.br" />
+    <link rel="preconnect" href="//cdn.privacytools.com.br" />
+    <link rel="preconnect" href="//www.googletagmanager.com" />
+    <link rel="preconnect" href="//www.google-analytics.com" />
+    <meta property="fb:app_id" content="293116970716860" />
+    <meta property="fb:pages" content="46452974955" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta property="al:ios:app_name" content="GZH" />
+    <meta property="al:ios:app_store_id" content="415470445" />
+    <meta property="al:ios:url" content="gauchazh-app://applinks" />
+    <meta property="al:android:app_name" content="GZH" />
+    <meta property="al:android:package" content="com.clicrbs.jornais" />
+    <meta property="al:android:url" content="gauchazh-app://applinks" />
+    <script src="https://accounts.google.com/gsi/client" async="" defer=""></script>
+    
+    <link rel="preload" href="https://gauchazh.clicrbs.com.br/static/fonts/source-serif4/source-serif4.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous" />
+    <link rel="preload" href="https://gauchazh.clicrbs.com.br/static/fonts/ibm-plex-sans/ibm-plex-sans-regular.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous" />
+    <link rel="preload" href="https://gauchazh.clicrbs.com.br/static/fonts/ibm-plex-sans/ibm-plex-sans-600.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous" />
+    <style>
+        @font-face {
+            font-family: 'Source Serif 4';
+            font-style: normal;
+            font-weight: 200 900;
+            font-display: swap;
+            font-optical-sizing: auto;
+            src: url(https://gauchazh.clicrbs.com.br/static/fonts/source-serif4/source-serif4.woff2) format('woff2')
+        }
+
+        @font-face {
+            font-display: swap;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://gauchazh.clicrbs.com.br/static/fonts/ibm-plex-sans/ibm-plex-sans-regular.woff2) format('woff2')
+        }
+
+        @font-face {
+            font-display: swap;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            src: url(https://gauchazh.clicrbs.com.br/static/fonts/ibm-plex-sans/ibm-plex-sans-500.woff2) format('woff2')
+        }
+
+        @font-face {
+            font-display: swap;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            src: url(https://gauchazh.clicrbs.com.br/static/fonts/ibm-plex-sans/ibm-plex-sans-600.woff2) format('woff2')
+        }
+    </style>
+    <link data-chunk="main" rel="stylesheet" href="https://gauchazh.clicrbs.com.br/static/main.636bd4d806f7f249b8e2.min.css" />
+    <link data-chunk="pages-content" rel="stylesheet"
+        href="https://gauchazh.clicrbs.com.br/static/vendors-1cdd281b49f9ed259d04c9337839731c.75742de6e1ad708f6d84.min.css" />
+    <link data-chunk="pages-content" rel="stylesheet" href="https://gauchazh.clicrbs.com.br/static/pages-content.4e156050dabe84e71421.min.css" />
+    <meta data-react-helmet="true" name="description"
+        content="Confira na coluna social os assuntos mais comentados do dia" />
+    <meta data-react-helmet="true" name="twitter:card" content="summary_large_image" />
+    <meta data-react-helmet="true" name="twitter:site" content="@gzhdigital" />
+    <meta data-react-helmet="true" name="twitter:title"
+        content="Veja quem brilha na cena social da coluna desta quarta-feira | Pioneiro" />
+    <meta data-react-helmet="true" name="twitter:description"
+        content="Confira na coluna social os assuntos mais comentados do dia" />
+    <meta data-react-helmet="true" name="twitter:image"
+        content="https://www.rbsdirect.com.br/filestore/8/1/0/3/1/0/5_210d2c474b07206/5013018_7288fc347e44f97.jpg?w=1024&amp;h=512&amp;a=c&amp;version=1575255600" />
+    <meta data-react-helmet="true" property="og:locale" content="pt_BR" />
+    <meta data-react-helmet="true" property="og:site_name" content="GZH" />
+    <meta data-react-helmet="true" property="og:url"
+        content="https://gauchazh.clicrbs.com.br/pioneiro/colunistas/joao-pulita/noticia/2024/08/veja-quem-brilha-na-cena-social-da-coluna-desta-quarta-feira-clziihrkv00i5010onvdw141z.html" />
+    <meta data-react-helmet="true" property="og:type" content="article" />
+    <meta data-react-helmet="true" property="og:title"
+        content="Veja quem brilha na cena social da coluna desta quarta-feira | Pioneiro" />
+    <meta data-react-helmet="true" itemProp="name"
+        content="Veja quem brilha na cena social da coluna desta quarta-feira | Pioneiro" />
+    <meta data-react-helmet="true" itemProp="description"
+        content="Confira na coluna social os assuntos mais comentados do dia" />
+    <meta data-react-helmet="true" property="og:description"
+        content="Confira na coluna social os assuntos mais comentados do dia" />
+    <meta data-react-helmet="true" name="image"
+        content="https://www.rbsdirect.com.br/filestore/8/1/0/3/1/0/5_210d2c474b07206/5013018_7288fc347e44f97.jpg?version=1575255600" />
+    <meta data-react-helmet="true" property="og:image"
+        content="https://www.rbsdirect.com.br/filestore/8/1/0/3/1/0/5_210d2c474b07206/5013018_7288fc347e44f97.jpg?w=1200&amp;h=630&amp;a=c&amp;version=1575255600" />
+    <meta data-react-helmet="true" name="article:modified_time" content="Wed, 07 Aug 2024 14:52:54 GMT" />
+    <meta data-react-helmet="true" property="og:updated_time" content="Wed, 07 Aug 2024 14:52:54 GMT" />
+    <meta data-react-helmet="true" name="article:published_time" content="Wed, 07 Aug 2024 08:45:03 GMT" />
+    <meta data-react-helmet="true" name="cXenseParse:publishtime" content="2024-08-07T08:45:03.000Z" />
+    <meta data-react-helmet="true" name="article:section" content="João Pulita" />
+    <meta data-react-helmet="true" name="article:author" content="João Pulita" />
+    <title data-react-helmet="true">Veja quem brilha na cena social da coluna desta quarta-feira | Pioneiro</title>
+    <link data-react-helmet="true" rel="canonical"
+        href="https://gauchazh.clicrbs.com.br/pioneiro/colunistas/joao-pulita/noticia/2024/08/veja-quem-brilha-na-cena-social-da-coluna-desta-quarta-feira-clziihrkv00i5010onvdw141z.html" />
+
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <div id="gzh-all">
+        <div class="gzh-layout">
+            <header class="font-plex">
+                <div class="container">
+                    <div class="relative flex h-[50px] w-full items-center justify-start lg:justify-center">
+                        <div class="absolute left-0 hidden lg:block">
+                            <p class="whitespace-nowrap text-xs font-normal text-gzh-gray"><span class="data-hoje"></span></p>
+                        </div>
+                        <div
+                            class="relative flex overflow-hidden text-xs font-normal leading-10 text-gzh-gray sm:max-w-[400px] min-[798px]:max-w-fit">
+                            <span class="mr-2 whitespace-nowrap">DESTAQUES</span>
+                            <div class="overflow-hidden">
+                                <div class="GZHSlider GZHSlider--auto" id="l0DOkMUyv-_R8PDRT5i76">
+                                    <div class="GZHSlider__viewport">
+                                        <div class="GZHSlider__container">
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/politica/eleicoes/noticia/2024/08/debate-na-gaucha-como-foi-o-primeiro-encontro-entre-pre-candidatos-a-prefeitura-de-porto-alegre-clzibzmzz00fs010o1u8x8o96.html">Debate
+                                                        na Gaúcha</a>
+                                                </div>
+                                            </div>
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/ultimas-noticias/tag/rebeca-andrade/">Rebeca Andrade</a>
+                                                </div>
+                                            </div>
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/ultimas-noticias/tag/tatiana-weston-webb/">Tati
+                                                        Weston-Webb</a>
+                                                </div>
+                                            </div>
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/esportes/olimpiada/ultimas-noticias/">Olimpíadas</a>
+                                                </div>
+                                            </div>
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/esportes/gremio/ultimas-noticias/">Grêmio</a>
+                                                </div>
+                                            </div>
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/esportes/inter/ultimas-noticias/">Inter</a>
+                                                </div>
+                                            </div>
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/passo-fundo/ultimas-noticias/">Passo Fundo</a>
+                                                </div>
+                                            </div>
+                                            <div class="GZHSlider__slide">
+                                                <div class="flex w-fit grow items-center gap-3 pr-12">
+                                                    <div class="flex items-center">
+                                                        <div class="h-[3px] w-[3px] rounded-full bg-current"></div>
+                                                    </div><a class="mr-3 whitespace-nowrap"
+                                                        href="/pioneiro/ultimas-noticias/">Pioneiro</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="pointer-events-none absolute -right-1 bottom-0 top-0 block w-14 bg-gradient-to-r from-transparent to-white sm:hidden">
+                            </div>
+                        </div>
+                        <div class="absolute right-0 hidden sm:block"><a href="http://tempo.clic.com.br/rs/porto-alegre"
+                                target="_blank" rel="noopener noreferrer">
+                                <div
+                                    class="flex items-center gap-2 whitespace-nowrap text-[11px] font-normal text-gzh-gray">
+                                    <p class="uppercase">Porto Alegre</p>
+                                    <p>22º</p>
+                                    <div class="h-[25px] w-[23px]"><svg id="rain" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 380 320">
+                                            <path fill="#a1a1a1"
+                                                d="M263.09,125.32a10,10,0,0,1-9.8-8.07,70,70,0,0,0-136.65-3.06,10,10,0,1,1-19.43-4.75,90,90,0,0,1,175.7,3.95A10,10,0,0,1,263.09,125.32Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M284.62,220.46H95.38a60,60,0,1,1,13.85-118.38l9.8,2.32-2.39,9.79a70.33,70.33,0,0,0-2,16.69,10,10,0,0,1-20,0,89.81,89.81,0,0,1,.61-10.42,40,40,0,0,0,.15,80H284.62a40,40,0,1,0-10.46-78.62,90,90,0,0,1,.46,9,10,10,0,1,1-20,0,70.62,70.62,0,0,0-1.33-13.62l-1.5-7.61,7-3.34A60,60,0,1,1,284.62,220.46Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M104.62,140.88a10,10,0,0,1-10-10,90.37,90.37,0,0,1,2.59-21.44,10,10,0,1,1,19.43,4.75,70.33,70.33,0,0,0-2,16.69A10,10,0,0,1,104.62,140.88Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M264.62,140.88a10,10,0,0,1-10-10,70.62,70.62,0,0,0-1.33-13.62,10,10,0,1,1,19.62-3.87,90.64,90.64,0,0,1,1.71,17.49A10,10,0,0,1,264.62,140.88Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M65,269.54a10,10,0,0,1-8.65-15l10-17.32a10,10,0,1,1,17.32,10l-10,17.32A10,10,0,0,1,65,269.54Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M85,289.12a10,10,0,0,1-8.65-15l10-17.32a10,10,0,0,1,17.32,10l-10,17.32A10,10,0,0,1,85,289.12Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M125,269.54a10,10,0,0,1-8.65-15l10-17.32a10,10,0,1,1,17.32,10l-10,17.32A10,10,0,0,1,125,269.54Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M145,289.12a10,10,0,0,1-8.65-15l10-17.32a10,10,0,0,1,17.32,10l-10,17.32A10,10,0,0,1,145,289.12Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M185,269.54a10,10,0,0,1-8.65-15l10-17.32a10,10,0,1,1,17.32,10l-10,17.32A10,10,0,0,1,185,269.54Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M205,289.12a10,10,0,0,1-8.65-15l10-17.32a10,10,0,0,1,17.32,10l-10,17.32A10,10,0,0,1,205,289.12Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M245,269.54a10,10,0,0,1-8.65-15l10-17.32a10,10,0,1,1,17.32,10l-10,17.32A10,10,0,0,1,245,269.54Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M265,289.12a10,10,0,0,1-8.65-15l10-17.32a10,10,0,0,1,17.32,10l-10,17.32A10,10,0,0,1,265,289.12Z">
+                                            </path>
+                                            <path fill="#a1a1a1"
+                                                d="M305,269.54a10,10,0,0,1-8.65-15l10-17.32a10,10,0,1,1,17.32,10l-10,17.32A10,10,0,0,1,305,269.54Z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                            </a></div>
+                    </div>
+                </div>
+            </header>
+            <div class="sticky top-[-1px] z-sticky">
+                <div class="w-full bg-black font-plex">
+                    <div class="container">
+                        <div class="relative flex h-[52px] w-full items-center justify-center gap-4 text-white">
+                            <div class="absolute left-0 flex items-center gap-3 bg-black pr-2"><button
+                                    aria-label="sidebar-menu-button" class="cursor-pointer"><svg class="fill-white"
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15">
+                                        <path fill-rule="evenodd"
+                                            d="M0 .333h20v2.5H0v-2.5zm0 8.334v-2.5h20v2.5H0zM0 14.5V12h20v2.5H0z">
+                                        </path>
+                                    </svg></button>
+                                <div class="relative hidden h-[28px] items-center sm:flex "><button class="block"
+                                        aria-label="Busca"><svg class="fill-white" xmlns="http://www.w3.org/2000/svg"
+                                            width="20" height="20" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd"
+                                                d="M7.462 12.593c.933 0 1.793-.234 2.58-.7.786-.466 1.407-1.093 1.865-1.88.457-.786.686-1.645.686-2.578 0-.933-.229-1.793-.686-2.579-.458-.787-1.08-1.408-1.866-1.866-.786-.457-1.646-.685-2.579-.685-.933 0-1.792.228-2.579.685-.786.458-1.412 1.08-1.879 1.866-.466.786-.7 1.646-.7 2.579 0 .933.234 1.792.7 2.579.467.786 1.093 1.413 1.88 1.879.786.466 1.645.7 2.578.7zm6.859 0L20 18.272 18.272 20l-5.68-5.706v-.906l-.329-.302c-.64.567-1.376 1.002-2.208 1.304-.832.301-1.697.452-2.593.452-1.353 0-2.601-.329-3.745-.987-1.143-.659-2.043-1.546-2.702-2.662C.338 10.041 0 8.788 0 7.435 0 6.08.334 4.833 1.001 3.69 1.67 2.547 2.574 1.646 3.717.988 4.861.329 6.11 0 7.462 0c1.354 0 2.607.338 3.759 1.015 1.116.659 1.998 1.555 2.647 2.689.65 1.134.974 2.377.974 3.73 0 .915-.15 1.789-.452 2.62-.302.833-.737 1.57-1.304 2.21l.302.329h.933z">
+                                            </path>
+                                        </svg></button>
+                                    <div class="relative h-full w-full hidden">
+                                        <div class="absolute left-1 z-10"><svg class="fill-black"
+                                                xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd"
+                                                    d="M7.462 12.593c.933 0 1.793-.234 2.58-.7.786-.466 1.407-1.093 1.865-1.88.457-.786.686-1.645.686-2.578 0-.933-.229-1.793-.686-2.579-.458-.787-1.08-1.408-1.866-1.866-.786-.457-1.646-.685-2.579-.685-.933 0-1.792.228-2.579.685-.786.458-1.412 1.08-1.879 1.866-.466.786-.7 1.646-.7 2.579 0 .933.234 1.792.7 2.579.467.786 1.093 1.413 1.88 1.879.786.466 1.645.7 2.578.7zm6.859 0L20 18.272 18.272 20l-5.68-5.706v-.906l-.329-.302c-.64.567-1.376 1.002-2.208 1.304-.832.301-1.697.452-2.593.452-1.353 0-2.601-.329-3.745-.987-1.143-.659-2.043-1.546-2.702-2.662C.338 10.041 0 8.788 0 7.435 0 6.08.334 4.833 1.001 3.69 1.67 2.547 2.574 1.646 3.717.988 4.861.329 6.11 0 7.462 0c1.354 0 2.607.338 3.759 1.015 1.116.659 1.998 1.555 2.647 2.689.65 1.134.974 2.377.974 3.73 0 .915-.15 1.789-.452 2.62-.302.833-.737 1.57-1.304 2.21l.302.329h.933z">
+                                                </path>
+                                            </svg></div>
+                                        <form><input type="search" name="search"
+                                                class="absolute bottom-0 left-0 top-0 h-full w-full rounded-full pl-7 text-sm text-black outline-none"
+                                                placeholder="Pesquisar por..." autoComplete="off" value="" /></form>
+                                    </div>
+                                </div><a aria-label="Capa GZH" class="block md:block" href="/">
+                                    <div>
+                                        <div class="flex gap-[2px]"><svg width="23" height="24" viewBox="0 0 23 24"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.45327 20.7251C2.3255 19.5774 1.43914 18.2153 0.846545 16.7194C0.253945 15.2234 -0.0328846 13.6238 0.00299476 12.0151C-0.0268439 10.3958 0.274488 8.7874 0.888505 7.28866C1.50252 5.78993 2.41627 4.43244 3.57371 3.29949C5.8634 1.14967 8.89661 -0.0299949 12.0371 0.00791714C14.7209 -0.0911157 17.3562 0.741439 19.496 2.3643C21.0315 3.60551 22.1679 5.27111 22.7635 7.15359L22.8655 7.47808H16.5374C16.0258 6.77785 15.3466 6.21732 14.562 5.84793C13.7775 5.47855 12.9127 5.31214 12.0471 5.36399C10.4987 5.35566 8.99915 5.90547 7.82314 6.91271C7.13303 7.56427 6.59237 8.35769 6.23841 9.23831C5.88445 10.1189 5.7256 11.0658 5.77281 12.0137C5.72964 12.9396 5.87617 13.8645 6.20342 14.7317C6.53066 15.5989 7.0317 16.3901 7.67578 17.0567C8.89668 18.1859 10.5091 18.7957 12.1718 18.757C13.5595 18.8104 14.9194 18.3572 15.9975 17.4817C16.4938 17.0647 16.8933 16.5444 17.1679 15.9571L17.2402 15.797H12.9893V10.8731H22.7592V23.5293H17.4315V22.1024C15.8142 23.3912 13.7909 24.0622 11.724 23.9955C8.64397 24.0372 5.67187 22.862 3.45327 20.7251Z"
+                                                    fill="#528D47"></path>
+                                            </svg><svg width="20" height="24" viewBox="0 0 20 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.578918 23.5151V18.2483L11.0091 5.93221H1.05501V0.474121H18.9922V5.55247L8.31121 18.057H19.1183V23.5151H0.578918Z"
+                                                    fill="#B72A23"></path>
+                                            </svg><svg width="21" height="24" viewBox="0 0 21 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14.6739 23.5151V14.6309H6.4131V23.5151H0.705627V0.474121H6.4131V9.23512H14.6739V0.474121H20.4154V23.5151H14.6739Z"
+                                                    fill="#F8F139"></path>
+                                            </svg></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hidden md:block"><a href="/colunistas/a-z">
+                                    <p class="font-plex text-2xl font-semibold text-white">COLUNISTAS</p>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <nav
+                    class="gzh-scroll fixed -left-96 top-0 z-menu w-[335px] bg-white shadow-[6px_0px_12px_0px_rgba(0,0,0,0.15)] transition-all duration-500 ease-out">
+                    <div class="h-screen">
+                        <div class="px-5 pt-5">
+                            <div class="flex items-center justify-between"><a aria-label="Capa GZH" href="/">
+                                    <div class="h-[22px] w-[62px] [&amp;&gt;svg]:max-h-full [&amp;&gt;svg]:max-w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="176" height="64"
+                                            viewBox="0 0 176 64" fill="#000">
+                                            <path
+                                                d="M9.208,55.277C3.268,49.451,0,41.171,0,32.039A31.722,31.722,0,0,1,9.526,8.782,32.436,32.436,0,0,1,32.108,0c7.979,0,14.676,2.116,19.9,6.289a26.8,26.8,0,0,1,8.718,12.776l.273.863H44.117c-1.892-2.672-5.468-5.638-12-5.638a17.159,17.159,0,0,0-11.252,4.132c-3.581,3.163-5.474,7.873-5.474,13.616,0,5.6,1.759,10.242,5.077,13.456a17.074,17.074,0,0,0,12,4.531,15.257,15.257,0,0,0,10.209-3.392A11.932,11.932,0,0,0,45.8,42.566L46,42.139H34.661V28.991H60.714V62.756h-14.2V58.95C42.82,62.164,37.346,64,31.282,64A31.2,31.2,0,0,1,9.208,55.277ZM160.854,63V39.091h-21.8V63H124V1h15.059V24.575h21.8V1H176V63ZM68,63V48.828L95.57,15.686H69.258V1h47.408V14.667L88.438,48.314H117V63Z">
+                                            </path>
+                                        </svg></div>
+                                </a>
+                                <div class="cursor-pointer"><svg stroke="currentColor" fill="#000" stroke-width="0"
+                                        viewBox="0 0 512 512" height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z">
+                                        </path>
+                                    </svg></div>
+                            </div>
+                            <hr class="mb-4 h-[1px] border-none bg-gzh-divider mt-[18px]" />
+                            <div class="mb-4 flex items-center justify-between bg-gzh-gray-light p-5">
+                                <form><input type="text" name="search"
+                                        class="bg-gzh-gray-light font-plex text-base font-normal text-black outline-none"
+                                        placeholder="Pesquisar por..." value="" /></form><button
+                                    aria-label="Pesquisar"><svg class="fill-black" xmlns="http://www.w3.org/2000/svg"
+                                        width="20" height="20" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M7.462 12.593c.933 0 1.793-.234 2.58-.7.786-.466 1.407-1.093 1.865-1.88.457-.786.686-1.645.686-2.578 0-.933-.229-1.793-.686-2.579-.458-.787-1.08-1.408-1.866-1.866-.786-.457-1.646-.685-2.579-.685-.933 0-1.792.228-2.579.685-.786.458-1.412 1.08-1.879 1.866-.466.786-.7 1.646-.7 2.579 0 .933.234 1.792.7 2.579.467.786 1.093 1.413 1.88 1.879.786.466 1.645.7 2.578.7zm6.859 0L20 18.272 18.272 20l-5.68-5.706v-.906l-.329-.302c-.64.567-1.376 1.002-2.208 1.304-.832.301-1.697.452-2.593.452-1.353 0-2.601-.329-3.745-.987-1.143-.659-2.043-1.546-2.702-2.662C.338 10.041 0 8.788 0 7.435 0 6.08.334 4.833 1.001 3.69 1.67 2.547 2.574 1.646 3.717.988 4.861.329 6.11 0 7.462 0c1.354 0 2.607.338 3.759 1.015 1.116.659 1.998 1.555 2.647 2.689.65 1.134.974 2.377.974 3.73 0 .915-.15 1.789-.452 2.62-.302.833-.737 1.57-1.304 2.21l.302.329h.933z">
+                                        </path>
+                                    </svg></button>
+                            </div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider false" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/ultimas-noticias/">Últimas notícias</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider false" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/">Zero Hora</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    href="https://flipzh.clicrbs.com.br/jornal-digital/pub/gruporbs/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Edição
+                                    do Dia</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/gaucha/">Gaúcha</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    href="https://clubedoassinante.clicrbs.com.br/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Clube
+                                    do Assinante</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/destemperados/ultimas-noticias/">Destemperados</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/donna/ultimas-noticias/">Donna</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider false" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    data-metrics="gzh-esportes-menu2" href="/jogos/ultimas-noticias/">Cruzadinha e
+                                    Sudoku</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/donna/horoscopo/ultimas-noticias/">Horóscopo</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/ultimas-noticias/tag/loterias/">Loterias</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    href="https://www.gauchazh.com.br/newsletter" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Newsletters</a><svg
+                                    class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/recomendacao/">Para Você</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/geral/noticia/2018/07/podcasts-gzh-cjjuew79200b901qc9d2x98uv.html">Podcasts</a><svg
+                                    class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/ultimas-noticias/tag/video/">Video</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/gzh-ofertas/">Ofertas</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/publicidade-legal/ultimas-noticias/">Publicidade Legal</a><svg class=""
+                                    width="8" height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider false" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/passo-fundo/ultimas-noticias/">Passo Fundo</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/pioneiro/ultimas-noticias/">Pioneiro</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/porto-alegre/ultimas-noticias/">Porto Alegre</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider false" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/ambiente/ultimas-noticias">Ambiente</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/campo-e-lavoura/ultimas-noticias/">Campo e Lavoura</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/tecnologia/ultimas-noticias/">Ciência e tecnologia</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/colunistas/a-z/">Colunistas</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/comportamento/ultimas-noticias/">Comportamento</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/opiniao/conselho-editorial/ultimas-noticias/">Conselho Editorial</a><svg
+                                    class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/cultura-e-lazer/ultimas-noticias/">Cultura e Lazer</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/economia/ultimas-noticias/">Economia</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/educacao/ultimas-noticias/">Educação</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/politica/eleicoes/ultimas-noticias/">Eleições</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/emprego/ultimas-noticias/">Emprego</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/esportes/ultimas-noticias/">Esportes</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/donna/gente/ultimas-noticias/">Gente</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/geral/ultimas-noticias/">Geral</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/grupo-de-investigacao/ultimas-noticias/">Grupo de investigação</a><svg
+                                    class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/recomendacao/">GZH Para Você</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/esportes/gremio/ultimas-noticias/">Grêmio</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/esportes/inter/ultimas-noticias/">Inter</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/mundo/ultimas-noticias/">Mundo</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/opiniao/ultimas-noticias/">Opinião</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/politica/ultimas-noticias/">Política</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    href="https://gauchazh.clicrbs.com.br/especiais" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Reportagens
+                                    Especiais</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/saude/ultimas-noticias/">Saúde</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/seguranca/ultimas-noticias/">Segurança</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/transito/ultimas-noticias/">Trânsito</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider false" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/conteudo-de-marca/ultimas-noticias/">RBS Brand Studio</a><svg class=""
+                                    width="8" height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                        </div>
+                        <div class="bg-[#f5f5f5] p-5">
+                            <div class="flex items-center justify-between pointer-events-none"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/">Aplicativos</a><svg class="invisible" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    href="https://itunes.apple.com/br/app/zero-hora/id415470445?mt=8" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3 first-letter:uppercase lowercase">Aplicativos
+                                    para Iphone e Ipad</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    href="https://play.google.com/store/apps/details?id=com.clicrbs.jornais"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3 first-letter:uppercase lowercase">Aplicativos
+                                    para Android</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="pb-5"></div>
+                            <div class="flex items-center justify-between pointer-events-none"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/">Assinantes</a><svg class="invisible" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    href="http://flipzh.clicrbs.com.br/jornal-digital/pub/gruporbs/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3 first-letter:uppercase lowercase">Zero
+                                    Hora Edição Digital</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    href="http://flipzh.clicrbs.com.br/jornal-digital/pub/gruporbs/acessivel/"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3 first-letter:uppercase lowercase">Zero
+                                    Hora Edição Digital (somente texto)</a><svg class="" width="8" height="13"
+                                    viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a
+                                    href="https://clubedoassinante.clicrbs.com.br/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3 first-letter:uppercase lowercase">Clube
+                                    do assinante</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="flex items-center justify-between"><a href="https://assinante.clicrbs.com.br/"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3 first-letter:uppercase lowercase">Portal
+                                    do Assinante</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <div class="pb-5"></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/praticas-editoriais/">Práticas editoriais em GZH</a><svg class="" width="8"
+                                    height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a href="https://wa.me/5551996674125"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Fale
+                                    com a Redação</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    href="https://campanha.assinanterbs.com.br/faleconosco/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Fale
+                                    com nosso Atendimento</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/geral/noticia/2017/09/quem-e-quem-cj7g8ssdg000401qppbd2pyj8.html">Quem é
+                                    quem</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    href="http://comercial.gruporbs.com.br/comunicar-marca/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Anuncie
+                                    seu negócio</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3"
+                                    href="/geral/noticia/2017/09/rede-gaucha-sat-cj7g99xnd000601qphs3k2agc.html">Rede
+                                    Gaúcha SAT</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    href="https://campanha.assinanterbs.com.br/faq-google/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Perguntas
+                                    Frequentes</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    href="https://www.gauchazh.com.br/excluir-conta/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">Excluir
+                                    Conta</a><svg class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                            <hr class="my-2 h-[1px] border-none bg-gzh-divider hidden" />
+                            <div class="flex items-center justify-between"><a
+                                    href="https://legal.clicrbs.com.br/ecad/ecad18072024.pdf" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-base font-plex text-base text-black uppercase font-medium leading-[20px] w-full py-3">ECAD</a><svg
+                                    class="" width="8" height="13" viewBox="0 0 8 13"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.70709 7.15558C8.09764 6.79298 8.09764 6.20412 7.70709 5.84152L1.70826 0.271952C1.31771 -0.0906506 0.68346 -0.0906506 0.292912 0.271952C-0.0976372 0.634553 -0.0976372 1.22342 0.292912 1.58602L5.58563 6.5L0.296036 11.414C-0.0945128 11.7766 -0.0945128 12.3654 0.296036 12.728C0.686585 13.0907 1.32084 13.0907 1.71138 12.728L7.71021 7.15849L7.70709 7.15558Z"
+                                        fill="#000"></path>
+                                </svg></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="gzh-body gzh-page-column pioneiro colunistas joao-pulita mb-7">
+                <div>
+                    <div class="h-[116px]">
+                        <div class="container h-full">
+                            <div class="relative h-full w-full">
+                                <div class="flex h-full flex-col justify-center gap-2 md:items-center">
+                                    <div class="block md:hidden [&amp;&gt;svg]:h-[25px] [&amp;&gt;svg]:w-[208px]">
+                                        <div
+                                            class="block md:hidden [&amp;&gt;svg]:max-h-[52px] [&amp;&gt;svg]:w-[104px] [&amp;&gt;svg]:fill-black [&amp;&gt;svg]:text-black [&amp;_g]:fill-black">
+                                            <svg width="227" height="44" viewBox="0 0 227 44" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M46.384 4.52706C46.384 7.02728 44.3527 9.05413 41.847 9.05413C39.3414 9.05413 37.3101 7.02728 37.3101 4.52706C37.3101 2.02684 39.3414 0 41.847 0C44.3527 0 46.384 2.02684 46.384 4.52706Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.4409 0.719875C4.12859 2.52292 0.0857236 8.69086 0.0532247 16.0263C0.018559 24.4923 0.00121507 32.9779 0.00121507 41.483C-0.00709509 41.5868 0.0235425 41.69 0.0871835 41.7728C0.150824 41.8555 0.24294 41.9115 0.345704 41.9303C3.17311 42.6827 8.16499 43.0588 8.13899 38.7004C8.12163 35.6002 8.12163 32.6903 8.13899 29.9706C8.1117 29.8083 8.12577 29.6417 8.17996 29.4861C8.23415 29.3307 8.32668 29.1911 8.44905 29.0808C8.57141 28.9702 8.71967 28.8924 8.88016 28.8539C9.04065 28.8156 9.20823 28.8184 9.36744 28.8615C18.8441 29.7761 31.7202 27.7071 32.8253 15.8641C34.0342 2.92503 22.2825 -1.95226 11.4409 0.719875ZM8.38596 21.7662C7.71649 14.4567 8.82146 4.96805 18.9872 6.79704C21.8471 7.31156 23.5847 9.08003 24.2 12.1024C26.3579 22.6417 16.1402 22.4472 8.72397 22.0904C8.68021 22.0922 8.63655 22.0851 8.59561 22.0696C8.55466 22.0541 8.51728 22.0305 8.48572 22.0002C8.45414 21.9699 8.42901 21.9336 8.41188 21.8933C8.39475 21.8531 8.38594 21.8099 8.38596 21.7662Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M162.169 8.97414C164.742 9.05034 166.887 7.1268 166.96 4.67779C167.033 2.2288 165.006 0.181724 162.433 0.105533C159.86 0.0293414 157.716 1.95288 157.643 4.40188C157.57 6.85089 159.597 8.89795 162.169 8.97414Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M82.4599 34.3783C83.2117 32.6362 83.6124 30.7633 83.6389 28.8666L83.6778 26.0389C83.7043 24.1423 83.3565 22.259 82.6533 20.4966C81.9505 18.7342 80.9067 17.1272 79.5815 15.7674C78.2563 14.4076 76.6757 13.3215 74.9298 12.5712C73.184 11.821 71.307 11.4212 69.4062 11.3947L65.9099 11.346C64.0094 11.3196 62.122 11.6669 60.3556 12.3682C58.5895 13.0695 56.9791 14.1111 55.6161 15.4335C54.2534 16.7559 53.165 18.3331 52.4132 20.0753C51.6613 21.8174 51.2606 23.6902 51.2341 25.5868L51.1944 28.4146C51.1679 30.3113 51.516 32.1946 52.2188 33.9569C52.9217 35.7192 53.9655 37.3264 55.2907 38.6861C56.6159 40.0459 58.1968 41.132 59.9426 41.8822C61.6885 42.6326 63.5654 43.0325 65.4659 43.059L68.9629 43.1076C70.8636 43.1341 72.751 42.7867 74.5171 42.0854C76.2835 41.384 77.8939 40.3424 79.2566 39.0201C80.6196 37.6978 81.7078 36.1204 82.4599 34.3783ZM75.5757 27.2816C75.5569 32.6362 71.9015 36.9648 67.4108 36.9492C62.9201 36.9336 59.2945 32.5791 59.3134 27.2245C59.3323 21.8699 62.9877 17.5412 67.4784 17.5568C71.9691 17.5724 75.5946 21.9269 75.5757 27.2816Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M97.3682 37.7341C97.3814 42.793 93.1956 43.0005 89.4452 41.859C89.3278 41.8328 89.2238 41.765 89.1521 41.6686C89.0807 41.5722 89.0462 41.4534 89.0552 41.3335V14.2491C89.05 14.1598 89.0746 14.0713 89.1253 13.9974C89.1759 13.9235 89.2495 13.8684 89.3346 13.8405C98.0834 10.4355 117.784 8.21085 118.044 22.9854C118.135 28.2303 118.157 33.4708 118.109 38.7069C118.07 43.033 113.423 42.6698 110.595 41.9499C110.394 41.898 110.217 41.7792 110.092 41.6127C109.968 41.4463 109.905 41.2426 109.913 41.0353C110.13 35.4704 110.101 29.8926 109.828 24.302C109.49 17.2909 102.874 17.1677 97.6219 18.7762C97.5357 18.7969 97.4599 18.8474 97.4077 18.9186C97.3554 18.9898 97.3299 19.0772 97.3359 19.1653C97.3444 25.3614 97.3554 31.5509 97.3682 37.7341Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M149.529 35.1787C143.985 36.7222 134.157 38.6162 131.7 31.1445C131.685 31.0972 131.68 31.0486 131.688 31C131.696 30.9511 131.716 30.905 131.745 30.8657C131.776 30.8252 131.815 30.7927 131.86 30.7701C131.905 30.7477 131.955 30.7359 132.006 30.7359C136.837 30.8482 141.679 30.7834 146.533 30.5412C150.764 30.3274 152.98 27.0065 153.032 22.94C153.182 12.0893 141.294 9.30691 132.974 12.3358C120.488 16.8758 119.461 36.5472 131.993 41.7811C136.256 43.5581 154.157 45.4586 149.99 35.3991C149.977 35.3532 149.953 35.3106 149.922 35.2743C149.89 35.2379 149.852 35.2085 149.808 35.1877C149.765 35.1669 149.718 35.1555 149.67 35.1538C149.622 35.1522 149.574 35.1607 149.529 35.1787ZM131.596 24.8922C131.453 15.0209 147.176 14.7744 144.986 23.6469C144.459 25.7825 136.638 25.4328 133.157 25.2771C132.642 25.2541 132.221 25.2353 131.934 25.2295C131.888 25.2353 131.842 25.2305 131.798 25.2156C131.755 25.2007 131.715 25.1761 131.682 25.1435C131.649 25.111 131.625 25.0714 131.61 25.0278C131.595 24.9843 131.59 24.9379 131.596 24.8922Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M180.748 40.2698C180.519 40.7953 180.162 41.2552 179.711 41.6086C179.259 41.962 178.726 42.1974 178.161 42.2935C176.476 42.6046 174.738 42.4314 173.149 41.794C173.025 41.7536 172.917 41.673 172.843 41.5651C172.769 41.4573 172.733 41.3281 172.74 41.1976V15.3452C172.739 15.1658 172.786 14.9895 172.875 14.8336C172.964 14.6777 173.092 14.5477 173.247 14.4567C177.828 11.7257 183.221 10.6752 188.495 11.4862C192.675 12.0699 194.742 15.6889 191.511 19.0032C191.448 19.0751 191.363 19.1247 191.27 19.1446C191.176 19.1644 191.078 19.1535 190.991 19.1134C187.911 17.8439 184.462 17.7928 181.345 18.9707C181.249 18.9994 181.165 19.0599 181.107 19.1423C181.049 19.2248 181.021 19.3243 181.027 19.4247V39.0767C181.028 39.4907 180.933 39.8992 180.748 40.2698Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M225.368 34.2799C226.108 32.5321 226.495 30.6556 226.509 28.7579L226.526 25.9042C226.552 22.0733 225.053 18.3887 222.357 15.6605C219.662 12.9323 215.991 11.3838 212.152 11.3553L208.759 11.332C206.857 11.3187 204.972 11.6794 203.21 12.3933C201.448 13.1073 199.844 14.1605 198.49 15.493C197.136 16.8254 196.058 18.4109 195.318 20.159C194.578 21.9071 194.19 23.7835 194.177 25.6811L194.157 28.5347C194.13 32.3663 195.63 36.0515 198.326 38.7797C201.022 41.508 204.694 43.0562 208.533 43.0838L211.926 43.107C213.828 43.1204 215.714 42.7596 217.476 42.0457C219.238 41.3318 220.842 40.2785 222.196 38.946C223.55 37.6136 224.628 36.028 225.368 34.2799ZM218.472 27.2753C218.454 32.6298 214.795 36.9584 210.301 36.9429C205.806 36.9268 202.178 32.5728 202.197 27.2182C202.216 21.8636 205.874 17.5343 210.369 17.5505C214.863 17.5668 218.491 21.9207 218.472 27.2753Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M37.5571 15.8576C37.5831 11.7262 42.5878 11.9143 45.2267 12.699C45.4013 12.7518 45.554 12.859 45.6629 13.005C45.7716 13.1509 45.8307 13.3279 45.8312 13.5097C45.8356 21.898 45.8247 30.3534 45.7987 38.8757C45.7921 43.0784 40.5469 42.6308 37.9014 41.8656C37.8012 41.8454 37.7114 41.7896 37.6493 41.7085C37.5872 41.6274 37.5565 41.5264 37.5634 41.4245C37.5201 30.1305 37.5179 21.6083 37.5571 15.8576Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M165.948 12.9C164.251 12.1152 158.135 11.6677 158.129 14.9301C158.111 23.7118 158.109 32.5152 158.122 41.3401C158.115 41.4422 158.144 41.5435 158.203 41.6274C158.262 41.7109 158.348 41.7721 158.447 41.8005C161.43 42.8836 166.247 42.9552 166.24 38.4927C166.231 30.1261 166.234 21.7509 166.247 13.367C166.252 13.2677 166.226 13.1693 166.172 13.0856C166.119 13.0018 166.04 12.9369 165.948 12.9Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="relative flex flex-col gap-2 md:items-center" style="margin-right:50px">
+                                        <a href="/pioneiro/colunistas/joao-pulita/ultimas-noticias">
+                                            <h1 class="font-plex text-lg font-semibold uppercase">João Pulita</h1>
+                                        </a><button class="flex items-center gap-1"><span
+                                                class="text-center text-xs font-medium">VER PERFIL</span><svg
+                                                stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" height="14" width="14"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg></button><a href="/pioneiro/colunistas/joao-pulita/ultimas-noticias">
+                                            <div
+                                                class="hidden md:absolute md:bottom-[-34px] md:right-[-130px] md:z-columnist md:block [&amp;&gt;img]:h-[120px] [&amp;&gt;img]:w-[120px] md:[&amp;&gt;img]:h-[130px] md:[&amp;&gt;img]:w-[130px]">
+                                                <img src="https://www.rbsdirect.com.br/filestore/2/6/9/5/5/9/4_95077c2007aa51c/4955962_f4c791802bfe9a6.png?w=130&amp;h=130"
+                                                    alt="João Pulita" loading="lazy" class="mix-blend-multiply" /></div>
+                                        </a></div>
+                                </div><a href="/pioneiro/colunistas/joao-pulita/ultimas-noticias">
+                                    <div
+                                        class="absolute bottom-0 right-0 z-columnist md:hidden [&amp;&gt;img]:h-[120px] [&amp;&gt;img]:w-[120px] md:[&amp;&gt;img]:h-[130px] md:[&amp;&gt;img]:w-[130px]">
+                                        <img src="https://www.rbsdirect.com.br/filestore/2/6/9/5/5/9/4_95077c2007aa51c/4955962_f4c791802bfe9a6.png?w=130&amp;h=130"
+                                            alt="João Pulita" loading="lazy" class="mix-blend-multiply" /></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-h-0 overflow-hidden transition-all">
+                        <div class="container w-full max-w-[350px] py-2">
+                            <p class="text-center font-plex text-[15px]">Sempre teve um grande prazer em estar entre as
+                                gentes. Apaixonado pela cultura, em particular pelas artes plásticas e pelo teatro,
+                                engatou a carreira como colunista social do Pioneiro em 1987. Com uma extensa trajetória
+                                na comunicação, é um expressivo divulgador da cultura, do comportamento e também
+                                incentivador dos feitos dos nomes tradicionais e os nomes revelação de toda a Serra
+                                gaúcha. Está à frente de mais de 20 edições do projeto solidário Feijoada do Pulita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" gzh-grid-container">
+                  
+                    <div class="container py-6">
+                        <div class="flex w-full justify-center font-plex">
+                            <div class="relative flex overflow-hidden font-plex text-[14px] font-medium">
+                                <div class="mr-3 flex h-full items-center border-b-4"
+                                    style="border-bottom-color:#7f0054"><span
+                                        class="whitespace-nowrap pt-[2px] text-sm font-bold">AO VIVO</span></div>
+                                <div class="overflow-hidden">
+                                    <div class="GZHSlider GZHSlider--auto" id="Gr_MymCNa0BaidFk_wDGq">
+                                        <div class="GZHSlider__viewport">
+                                            <div class="GZHSlider__container">
+                                                <div class="GZHSlider__slide">
+                                                    <div class="flex w-fit grow items-center gap-3 pr-12">
+                                                        <div class="flex items-center"><span
+                                                                class="h-3 border-l-2 border-l-black"></span></div><a
+                                                            class="mr-3 whitespace-nowrap"
+                                                            href="/esportes/gremio/noticia/2024/08/ao-vivo-gremio-x-corinthians-na-jornada-digital-da-gaucha-clzkfyj11009m010obtqt5l5d.html">Acompanhe
+                                                            a Jornada Digital de Grêmio x Corinthians</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="pointer-events-none absolute -right-1 bottom-0 top-0 block w-14 bg-gradient-to-r from-transparent to-white sm:hidden">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" gzh-grid-row gzh-grid-row-gap">
+                        <div class=" gzh-grid-col col-span-12 lg:col-span-6 lg:col-start-2 gzh-grid-col-gap">
+                            <article>
+                                <header>
+                                    <div class="mb-2 font-plex text-sm text-gzh-primary after:mt-2 after:block after:w-[40px] after:border-b after:border-current after:content-[&#x27;&#x27;] flex flex-col items-center text-center"
+                                        style="color:#7f0054">
+                                        <div class="flex items-center gap-2">
+                                            <div class="text-base font-bold">Sociedade</div>
+                                            <div class="relative flex items-center">
+                                                <div class="mr-2 h-[3px] w-[3px] rounded-full bg-current"></div><span
+                                                    class="cursor-pointer text-base"
+                                                    data-tooltip-id="content-type-tip">Notícia</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h1
+                                        class="mb-7 text-center font-sans text-[34px] font-normal leading-[37px] sm:text-[48px] sm:leading-[49px]">
+                                        Veja quem brilha na cena social da coluna desta semana</h1>
+                                    <div class="text-center">
+                                        <p class="mb-5 font-plex text-[19px] leading-[25px] text-gzh-gray">Confira na
+                                            coluna social os assuntos mais comentados do dia</p>
+                                    </div>
+                                    <div
+                                        class="mb-7 flex flex-row items-center justify-between border-y-[1px] py-[14px]">
+                                        <div class="flex flex-col font-plex text-[11px] leading-[16px] text-gzh-gray">
+                                            <time content="2024-08-07">04/08/2024 - 05h45min</time><time
+                                                content="2024-08-07">Atualizada em 07/08/2024 - 11h52min</time></div>
+                                        <div class="flex flex-col items-center">
+                                            <ul class="flex space-x-4">
+                                                <li><a target="_blank"
+                                                        href="https://www.facebook.com/sharer/sharer.php?u=https://gauchazh.clicrbs.com.br/pioneiro/colunistas/joao-pulita/noticia/2024/08/veja-quem-brilha-na-cena-social-da-coluna-desta-quarta-feira-clziihrkv00i5010onvdw141z.html"
+                                                        rel="noopener noreferrer"
+                                                        aria-label="compartilhar facebook"><svg stroke="currentColor"
+                                                            fill="currentColor" stroke-width="0" viewBox="0 0 320 512"
+                                                            class="text-gzh-gray text-2xl" height="1em" width="1em"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                                            </path>
+                                                        </svg></a></li>
+                                                <li><a target="_blank"
+                                                        href="https://twitter.com/intent/tweet?text=Veja quem brilha na cena social da coluna desta quarta-feira&amp;url=https://gauchazh.clicrbs.com.br/pioneiro/colunistas/joao-pulita/noticia/2024/08/veja-quem-brilha-na-cena-social-da-coluna-desta-quarta-feira-clziihrkv00i5010onvdw141z.html"
+                                                        rel="noopener noreferrer"><svg stroke="currentColor"
+                                                            fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                                                            class="text-gzh-gray text-2xl" aria-label="compartilhar X"
+                                                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                                            </path>
+                                                        </svg></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </header>
+                                <div class="m-paid-content">
+                                    <div class="">
+                                        <div>
+                                            <div class="ads-video-intext"></div>
+                                            <div class="article-content sa_incontent max-w-[613px]"
+                                                itemProp="articleBody">
+                                                <div class="article-paragraph">
+                                                    <p>No último fim de semana, a encantadora <strong>Marina Fuhrmeister</strong> brilhou como uma verdadeira estrela em sua deslumbrante
+                                                        noite de debutante, realizada em um dos salões mais prestigiados de Caxias do Sul. Com uma aura de elegância e
+                                                        sofisticação, Marina desfilou pelo tapete vermelho, deixando todos os presentes sem fôlego diante de sua beleza e
+                                                        graça. Vestida em um vestido exclusivo, que mais parecia ter sido tecido por mãos de anjos, a jovem debutante foi o
+                                                        centro das atenções de uma noite inesquecível, repleta de luxo e glamour, que certamente será lembrada por muito
+                                                        tempo na alta sociedade caxiense.</p>
+                                                </div>
+                                                <div class="article-paragraph">
+                                                    <figure class="m-figure figure-md" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+                                                        <picture>
+                                                            <img class="figure-img" loading="lazy"
+                                                                src="https://www.rbsdirect.com.br/filestore/5/3/9/3/1/0/5_d46bdd1870f643d/5013935_4f5b9cf85f4ce9c.jpg?w=700"
+                                                                title="Bruno Todeschini / Agencia RBS" alt="Bruno Todeschini / Agencia RBS">
+                                                        </picture>
+                                                        <figcaption class="figure-caption"><span class="figure-desc">Capacitação tem como objetivo oferecer maior
+                                                                conhecimento e compreensão dos fenômenos geradores e potencializadores de risco.</span><span
+                                                                class="figure-src" itemprop="author">Bruno Todeschini / Agencia RBS</span></figcaption>
+                                                    </figure>
+                                                </div>
+                                                <div id="paywallTemplate" class="paid-content-template xl:w-[725px]">
+                                                </div>
+                                                <div
+                                                    class="trust-project-box flex items-center justify-between border-y border-gzh-divider py-5">
+                                                    <div
+                                                        class="trust-project-box--logo-headline flex items-center gap-3">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                                                            xml:space="preserve"
+                                                            style="fill:#fff;width:24px;height:24px">
+                                                            <path
+                                                                d="M94 83.8c0 5.5-4.5 10-10 10H16c-5.5 0-10-4.5-10-10v-68c0-5.5 4.5-10 10-10h68c5.5 0 10 4.5 10 10v68z"
+                                                                style="fill:#fff"></path>
+                                                            <path
+                                                                d="M84 0H16C7.2 0 0 7.2 0 16v68c0 8.8 7.2 16 16 16h68c8.8 0 16-7.2 16-16V16c0-8.8-7.2-16-16-16zm10 84c0 5.5-4.5 10-10 10H16c-5.5 0-10-4.5-10-10V16c0-5.5 4.5-10 10-10h68c5.5 0 10 4.5 10 10v68z"
+                                                                style="fill:#191919"></path>
+                                                            <path
+                                                                d="M59.9 76.8H40.2c-.4 0-.7-.3-.7-.7V42.5c0-.5-.4-.9-.9-.9H21c-.4 0-.7-.3-.7-.7V23.6c0-.4.3-.7.7-.7h58c.4 0 .7.3.7.7V41c0 .4-.3.7-.7.7H61.3c-.4 0-.7.3-.7.7v33.7c0 .4-.3.7-.7.7z"
+                                                                style="fill-rule:evenodd;clip-rule:evenodd;fill:#191919">
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            class="trust-project-box--headline text-black font-plex text-[14px] font-semibold capitalize">
+                                                            GZH faz parte do The Trust Project</div>
+                                                    </div><a
+                                                        class="trust-project-box--link font-plex uppercase text-gzh-gray text-xs font-medium"
+                                                        href="https://www.credibilidade.org/"
+                                                        title="Saiba mais sobre o The Trust Project"
+                                                        alt="Saiba mais sobre o The Trust Project" target="_blank"
+                                                        rel="noreferrer">Saiba Mais</a>
+                                                </div>
+                                            </div>
+                                            <div class="my-5">
+                                                <ul class="flex items-start">
+                                                    <li
+                                                        class="sm:mr-1 mr-0 mt-2 font-plex text-base font-medium leading-5 text-gzh-gray sm:w-auto min-w-[100px]">
+                                                        Mais sobre:</li>
+                                                    <div class="flex max-w-[450px] flex-wrap gap-5"><a
+                                                            href="/ultimas-noticias/tag/social/">
+                                                            <li
+                                                                class="rounded-[5px] border-[1px] border-solid border-gzh-divider px-[24px] py-[10px] text-center font-plex text-base leading-5 text-gzh-gray hover:bg-gzh-gray-light">
+                                                                social</li>
+                                                        </a><a href="/ultimas-noticias/tag/sociedade/">
+                                                            <li
+                                                                class="rounded-[5px] border-[1px] border-solid border-gzh-divider px-[24px] py-[10px] text-center font-plex text-base leading-5 text-gzh-gray hover:bg-gzh-gray-light">
+                                                                sociedade</li>
+                                                        </a><a href="/ultimas-noticias/tag/joao-pulita/">
+                                                            <li
+                                                                class="rounded-[5px] border-[1px] border-solid border-gzh-divider px-[24px] py-[10px] text-center font-plex text-base leading-5 text-gzh-gray hover:bg-gzh-gray-light">
+                                                                joão pulita</li>
+                                                        </a><a href="/ultimas-noticias/tag/destaque-variedades/">
+                                                            <li
+                                                                class="rounded-[5px] border-[1px] border-solid border-gzh-divider px-[24px] py-[10px] text-center font-plex text-base leading-5 text-gzh-gray hover:bg-gzh-gray-light">
+                                                                destaque variedades</li>
+                                                        </a></div>
+                                                </ul>
+                                            </div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class=" gzh-grid-col col-span-12 lg:col-span-3 lg:col-start-10 gzh-grid-col-gap">
+                            <div class="space-y-7">
+                                <div class="space-y-7">
+                                    <div class="flex h-full items-center justify-center">
+                                        <div class="flex items-center justify-center bg-ad-placeholder">
+                                            <div id="slot-retangulo-medio-1" class="ad-banner"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="space-y-7"></div>
+                                </div>
+                                <div class="space-y-7">
+                                    <div class="flex h-full items-center justify-center">
+                                        <div class="flex items-center justify-center bg-ad-placeholder">
+                                            <div id="slot-retangulo-medio-2" class="ad-banner"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="mb-5 block border-t-2 border-current text-center text-gzh-primary"
+                                        style="color:#7f0054">
+                                        <h2 class="mt-4 break-all font-plex text-lg font-bold uppercase text-current">
+                                            RBS BRAND STUDIO</h2>
+                                    </div>
+                                    <div class="space-y-7"></div>
+                                </div>
+                                <div class="space-y-7">
+                                    <div></div>
+                                </div>
+                                <div class="space-y-7">
+                                    <div class="flex h-full items-center justify-center">
+                                        <div class="flex items-center justify-center bg-ad-placeholder">
+                                            <div id="slot-retangulo-medio-3" class="ad-banner"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-7">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="ads-section-area my-8 bg-gzh-gray-light">
+                    <div class="container">
+                        <section class="ads-section-area area container-area">
+                            <div class="ads-area">
+                                <div class="ads-card"></div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <div class=" gzh-grid-container">
+                    <div class=" gzh-grid-row gzh-grid-row-gap">
+                        <div class=" gzh-grid-col col-span-12 lg:col-span-6 lg:col-start-2 gzh-grid-col-gap">
+                            <div class=""><a class="mb-5 block border-t-2 border-current text-center text-gzh-primary"
+                                    style="color:#7f0054" href="/pioneiro/colunistas/joao-pulita/ultimas-noticias/">
+                                    <h2 class="mt-4 break-all font-plex text-lg font-bold uppercase text-current">
+                                        Últimas de João Pulita</h2>
+                                </a>
+                                <div class="space-y-7"></div>
+                            </div>
+                        </div>
+                        <div class=" gzh-grid-col col-span-12 lg:col-span-3 lg:col-start-10 gzh-grid-col-gap"></div>
+                    </div>
+                    <div class=" gzh-grid-row gzh-grid-row-gap">
+                        <div class=" gzh-grid-col col-span-12 lg:col-span-6 lg:col-start-2 gzh-grid-col-gap">
+                            <div class=""><a class="mb-5 block border-t-2 border-current text-center text-gzh-primary"
+                                    style="color:#7f0054" href="/ultimas-noticias/">
+                                    <h2 class="mt-4 break-all font-plex text-lg font-bold uppercase text-current">
+                                        Últimas de GZH</h2>
+                                </a>
+                                <div class="space-y-7"></div>
+                            </div>
+                        </div>
+                        <div class=" gzh-grid-col col-span-12 lg:col-span-3 lg:col-start-10 gzh-grid-col-gap"></div>
+                    </div>
+                </div>
+            </div>
+            <footer class="font-plex"></footer>
+            <div class="fixed bottom-0 z-player w-full">
+                <div id="privacy-tools-banner"
+                    class="[&amp;_.module-ads\_\_accept]:!bg-[#00b270] [&amp;_.module-ads\_\_accept]:!font-plex [&amp;_.module-ads\_\_cookie-notification_.module-ads\_\_content]:lg:mx-auto [&amp;_.module-ads\_\_cookie-notification_.module-ads\_\_content]:lg:my-0 [&amp;_.module-ads\_\_cookie-notification_.module-ads\_\_content]:lg:max-w-[1238px] [&amp;_.module-ads\_\_text]:!font-plex [&amp;_.module-ads\_\_title]:!font-plex [&amp;_.notification\_\_text]:!font-plex [&amp;_.notification\_\_title]:!font-plex">
+                </div>
+                <div>
+                    <div class="transition-all hidden opacity-0 z- font-plex md:bg-transparent">
+                        <div class="flex justify-end md:container">
+                            <div class="w-full md:w-[200px] md:max-w-[200px]">
+                                <div class="w-full overflow-x-hidden bg-[#FB832D]">
+                                    <div class="flex w-full transition-all">
+                                        <div class="min-w-full">
+                                            <ul class="flex h-full w-full flex-col">
+                                                <li class="flex-1 border-b border-white"><a
+                                                        class="flex h-full w-full items-center justify-between gap-2  px-2 py-4"
+                                                        href="/programacao"><svg stroke="currentColor"
+                                                            fill="currentColor" stroke-width="0" version="1.1"
+                                                            viewBox="0 0 17 17" height="20" width="20"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <g></g>
+                                                            <path
+                                                                d="M16 2v2h-11v-2h11zM5 9h11v-2h-11v2zM5 14h11v-2h-11v2zM2 2c-0.552 0-1 0.447-1 1s0.448 1 1 1 1-0.447 1-1-0.448-1-1-1zM2 7c-0.552 0-1 0.447-1 1s0.448 1 1 1 1-0.447 1-1-0.448-1-1-1zM2 12c-0.552 0-1 0.447-1 1s0.448 1 1 1 1-0.447 1-1-0.448-1-1-1z">
+                                                            </path>
+                                                        </svg><span
+                                                            class="w-full text-left text-sm font-bold">Programação</span><svg
+                                                            stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                            viewBox="0 0 320 512" height="16" width="16"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                                            </path>
+                                                        </svg></a></li>
+                                                <li class="flex-1 border-b border-white "><a
+                                                        href="https://api.whatsapp.com/send?phone=5551996995218"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        class="flex items-center gap-2 px-2 py-4"><svg
+                                                            stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                            viewBox="0 0 448 512" height="22" width="22"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                                                            </path>
+                                                        </svg>
+                                                        <div class="flex flex-col gap-1"><span
+                                                                class="text-sm font-bold">Whatsapp</span><span
+                                                                class="text-lg">51 99699 5218</span></div>
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="min-w-full bg-[#FB832D]"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="fixed bottom-[60px] left-[10px] min-h-[10px] min-w-[10px]"></div>
+        </div>
+    </div>
+   
+
+    <script data-chunk="main" src="https://gauchazh.clicrbs.com.br/static/verdors-a.324fd1e5d2633b3f1fe0.min.js" defer=""></script>
+    <script data-chunk="main" src="https://gauchazh.clicrbs.com.br/static/verdors-rx.da1f074f7a29ab4386f8.min.js" defer=""></script>
+    <script data-chunk="main" src="https://gauchazh.clicrbs.com.br/static/verdors-r.b1e5ed9aa3aad2ebfc18.min.js" defer=""></script>
+    <script data-chunk="main" src="https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.556f11525c027e59a77d.min.js"
+        defer=""></script>
+    <script data-chunk="main" src="https://gauchazh.clicrbs.com.br/static/main.0d27d57bf4baf2f8c541.min.js" defer=""></script>
+    <script data-chunk="pages-content"
+        src="https://gauchazh.clicrbs.com.br/static/vendors-1cdd281b49f9ed259d04c9337839731c.cf3dce8519a7fdca33c5.min.js" defer=""></script>
+    <script data-chunk="pages-content"
+        src="https://gauchazh.clicrbs.com.br/static/vendors-1217edd6c2f0d14ccbbf3020d5430b02.dd7d1c6be354a16a814e.min.js" defer=""></script>
+    <script data-chunk="pages-content"
+        src="https://gauchazh.clicrbs.com.br/static/vendors-8b5b48a5cfc158c4680bbc80ca0c5022.9f93b9b2fdae87d398c1.min.js" defer=""></script>
+    <script data-chunk="pages-content" src="https://gauchazh.clicrbs.com.br/static/commons.2cec47f98e63afbbce5b.min.js" defer=""></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Obter o elemento que possui a classe .data-hoje
+            const dataElement = document.querySelector('.data-hoje');
+            
+            // Definir opções de formatação
+            const opcoes = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
+
+            // Obter a data atual e formatá-la
+            const dataAtual = new Date().toLocaleDateString('pt-BR', opcoes);
+
+            // Colocar a data formatada no elemento
+            dataElement.textContent = dataAtual;
+        });
+    </script>
+</body>
+
+</html>
